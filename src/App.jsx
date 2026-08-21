@@ -5,7 +5,7 @@ import {
   CreditCard, Plus, Lock, CheckCircle, Download, Star, Clock, AlertTriangle, RefreshCw, Trash2, Calendar, Award, ShoppingCart, X, Edit3, Settings
 } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://paperolla-erp.onrender.com/api';
 
 export default function App() {
   const [role, setRole] = useState('GUEST'); 
